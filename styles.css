@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  body {
+    background: url("love.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .navber a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+    
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+  }
+   header .navber{
+     display: flex;
+     align-items: center;
+     max-width: 1200px;
+     margin: 0 auto;
+     justify-content: space-between;
+  }
+  .navber .logo{
+    font-size: 2.1rem;
+    font-weight: 600;
+  }
+  .navber .menu-links{
+    display: flex;
+    gap: 40px;
+    
+  }  
+  .navber .logo samp {
+    color: #F02626;
+  }
+  
+  .navber a:hover{
+    color: #F02626;
+  }
+  .hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .hero-section .Contact {
+    color: #fff;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .hero-section .Contact h1 {
+    font-size: 3rem;
+    max-width: 600px;
+
+  }
+  .hero-section .Contact p {
+    font-weight: 300;
+    margin-top: 15px;
+    max-width: 600px;
+  }
+  .hero-section .Contact button {
+    background: #fff;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 38px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  .hero-section .Contact button:hover {
+    color: #fff;
+    background: #F02626;
+  }  

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+       <nav class="navber">
+           <a href="" class="logo">LOVE STORY<samp>.</samp></a>
+           <ul class="menu-links">
+             <li1><a href="lovestory.html">Home</a></li1>
+             <li2><a href="#">Gallary</a></li2>
+             <li3><a href="#">Anniversary Days Memory</a></li3>
+             <li4><a href="#">About Us</a></li4>
+             <li5><a href="#">Contact Us</a></li5>
+           </ul>
+          
+       </nv>
+    </header>
+    <div class="img">
+        <img src="image/G01.jpg" alt="">
+        <img src="image/G02.jpg" alt="">
+        <img src="image/G03.jpg" alt="">
+        <img src="image/G04.jpg" alt="">
+        <img src="image/G05.jpg" alt="">
+        <img src="image/G06.jpg" alt="">
+        <img src="image/G07.jpg" alt="">
+        <img src="image/G08.jpg" alt="">
+        <img src="image/G09.jpg" alt="">
+        <img src="image/G10.jpg" alt="">
+        <img src="image/G11.jpg" alt="">
+        <img src="image/G12.jpg" alt="">
+    </div>
+
+  </body>
+  <style>
+
+    body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    div img{
+        width: 400px;
+        height: 300px;
+        border: 2px solid #ff3d0036;
+        border-radius: 13px;
+        box-shadow: 4px 7px 7px 0px #00000042;
+        cursor: pointer;
+        margin: 10px;
+        transform: 400ms;
+    }
+
+    div img:hover{
+        filter: grayscale(1);
+        transform: scale(1.03);
+    }
+
+    body {
+    background: url("love.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .navber a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+    
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+  }
+   header .navber{
+     display: flex;
+     align-items: center;
+     max-width: 1200px;
+     margin: 0 auto;
+     justify-content: space-between;
+  }
+  .navber .logo{
+    font-size: 2.1rem;
+    font-weight: 600;
+  }
+  .navber .menu-links{
+    display: flex;
+    gap: 40px;
+    
+  }  
+  .navber .logo samp {
+    color: #F02626;
+  }
+  
+  .navber a:hover{
+    color: #F02626;
+  }
+
+  .img{
+     padding: 60px;
+  } 
+  </style>
+  
+</html>
